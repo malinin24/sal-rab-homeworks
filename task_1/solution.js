@@ -19,7 +19,7 @@ function addInCartMessage(title, price) {
     // выведите переменную message в консоль
     console.log(message);
     // Конец решения задания №1.1.
-    
+
     return message;
 }
 
@@ -30,8 +30,9 @@ function addInCartCountChange(value) {
 
     // создайте переменную newValue
     // присвойте ей значение oldValue
+    let newValue = oldValue;
     // увеличьте значение newValue на 1
-
+    newValue += 1;
     // Конец решения задания №1.2.
 
     return newValue;
